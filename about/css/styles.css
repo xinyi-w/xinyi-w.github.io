@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(239, 223, 223);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    grid-area: header;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 223, 223);
+    padding: 20px;
+    border-bottom: 5px solid rgb(239, 223, 223);
+}
+
+.name-text {
+    color: #171717;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: Neuemontreal, sans-serif;
+    font-weight: 400;
+    transition: color .3s cubic-bezier(.47, 0, .745, .715);
+    text-align: center;
+    top: 20px;
+}
+
+.navbar {
+    background: linear-gradient(pink, rgb(239, 223, 223));
+    width: 100%;
+    height: auto;
+    position: fixed;
+    color: #171717;
+    text-transform: uppercase;
+    font-family: Neuemontreal, sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.navbar_selected{
+    font-size: large;
+    background-color: rgb(237, 161, 153);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.info-section {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.info-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.info-section .portfolio-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.info-section .portfolio-item img {
+    max-width: 200px; /* Adjust the image size as needed */
+    margin-right: 10px;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(rgb(239, 223, 223), pink);
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 768px){
+    .navbar a{
+        font-size: small;
+    }
+
+    .name-text h1{
+        font-size: 25px;
+    }
+
+    .main img{
+        max-width: 200px;
+    }
+
+    .main h1{
+        font-size: 25px;
+    }
+
+    .main h2{
+        font-size: 15px;
+    }
+
+
+    .info-section h3{
+        font-size: 20px;
+    }
+
+    .info-section ul{
+        font-size: 13px;
+    }
+
+    .info-section p{
+        font-size: 13px;
+    }
+
+    .info-section .portfolio-item img {
+        width: 150px; /* Adjust the image size as needed */
+        margin-right: 5px;
+    }
+
+    footer{
+        font-size: 12px;
+    }
+}
+
+

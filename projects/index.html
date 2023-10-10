@@ -5,33 +5,66 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Xinyi's Personal Website</title>
-    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="/Users/kk/Desktop/SchoolWork/2023_Fall_CSA/5610/xinyi-w.github.io/projects/css/styles.css" />
 
 </head>
 
 <body>
     <div class="header">
-        <div class="name-text">
-            <h1>Projects</h1>
-        </div>
         <div class="navbar">
-            <a class="active" href="#home">Home</a>
-            <a href="projects/index.html">/Projects</a>
-            <a href="contacts/index.html">/Contact</a>
-            <a href="about/index.html">/About</a>
-        </div>
-
-        <div class="project-title">
-            <h2>Fitness Activity Planner</h2>
-        </div>
-
-        <div class="project-title">
-            <h2>Recipe Search Application</h2>
+            <div class="name-text">
+                <h1>Xinyi Wu</h1>
+            </div>
+            <a href="/Users/kk/Desktop/SchoolWork/2023_Fall_CSA/5610/xinyi-w.github.io/index.html">Home</a>
+            <a class="navbar_selected" href="/Users/kk/Desktop/SchoolWork/2023_Fall_CSA/5610/xinyi-w.github.io/projects/index.html">/Projects</a>
+            <a href="/Users/kk/Desktop/SchoolWork/2023_Fall_CSA/5610/xinyi-w.github.io/contacts/index.html">/Contact</a>
+            <a href="/Users/kk/Desktop/SchoolWork/2023_Fall_CSA/5610/xinyi-w.github.io/about/index.html">/About</a>
         </div>
     </div>
     <div class="main">
-        
+
+        <div>
+            <img src="/Users/kk/Desktop/SchoolWork/2023_Fall_CSA/5610/xinyi-w.github.io/images/project.png" alt="profile">
+        </div>
+
+        <h2>My Project</h2>
+
+        <div class="info-section">
+            <h3>Recipe Search Application</h3>
+            <ul>
+                <li>
+                    <p>Secured the users' original password and inaccessible to any unauthorized parties by using Flask_Bcrypt to hash users' passwords, effectively mitigates the risks associated with password-leak attacks, ensuring the protection of users' sensitive information</p>
+                </li>
+                <li>
+                    <p>Implemented users' role-based access control in Flask and assigned roles in MongoDB to specify the privileges, used SCRAM to authenticatemethod confirm each role has access to appropriate place</p>
+                </li>
+                <li>
+                    <p>Viewed by more than 200 users across 15 countries in a month on the published website</p>
+                </li>
+            </ul>
+        </div>
+    
+        <!-- Information Section 2 -->
+        <div class="info-section">
+            <h3>Fitness Activity Planner</h3>
+            <ul>
+                <li>
+                    <p>Built a website using HTML, CSS, JavaScript based on the W3C standards to provide an interactive and dynamic user experience.</p>
+                </li>
+                <li>
+                    <p>Utilized Beautiful Soup (Python) to scrape activity time and location information from the UIowa official website, and stored the collected data and user information in a MySQL database with a capacity of 100,000+ records</p>
+                </li>
+                <li>
+                    <p>Enhanced data security based on the XML based file web.config to redirect unauthenticated users to distinct user
+                        groups with varying permissions, ensuring appropriate access and protection</p>
+                </li>
+            </ul>
+        </div>
     </div>
+
+    <footer>
+        <p>&copy; 2023 Xinyi Wu</p>
+    </footer>
 
 </body>
 
