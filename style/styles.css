@@ -1,1 +1,30 @@
-Styles
+.header {
+    grid-area: header;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-bottom: 5px solid white;
+}
+
+.name-text {
+    color: #171717;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: Neuemontreal, sans-serif;
+    font-weight: 400;
+    transition: color .3s cubic-bezier(.47, 0, .745, .715);
+    text-align: center;
+
+}
+
+
+.navbar {
+    color: #171717;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: Neuemontreal, sans-serif;
+    font-weight: 400;
+ 
+}
+
+
