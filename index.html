@@ -1,1 +1,60 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Xinyi's Personal Website</title>
+    <style>
+        .header {
+            grid-area: header;
+            text-align: center;
+            background-color: pink;
+            padding: 20px;
+            border-bottom: 5px solid white;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: blue;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: grey;
+        }
+
+        .active {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="main">Xinyi's Website</h1>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+
+
+</body>
+
+</html>
