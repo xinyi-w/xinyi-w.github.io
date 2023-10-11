@@ -44,6 +44,9 @@ body {
     font-size: large;
     background-color: rgb(237, 161, 153);
 }
+a:hover {
+    background-color: yellow;
+}
 
 .main {
     display: flex;
@@ -145,6 +148,3 @@ footer {
     }
 }
 
-a:hover {
-    background-color: yellow;
-}

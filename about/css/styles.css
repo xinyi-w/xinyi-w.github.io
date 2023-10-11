@@ -40,19 +40,19 @@ body {
     margin-top: 20px;
 }
 
-.navbar_selected{
+.navbar_selected {
     font-size: large;
     background-color: rgb(237, 161, 153);
 }
 
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: 20px auto;
     padding: 0 20px;
@@ -85,11 +85,12 @@ body {
 }
 
 .info-section .portfolio-item img {
-    max-width: 200px; /* Adjust the image size as needed */
+    max-width: 200px;
+    /* Adjust the image size as needed */
     margin-right: 10px;
 }
 
-footer{
+footer {
     position: relative;
     bottom: 0;
     width: 100%;
@@ -99,48 +100,51 @@ footer{
     padding: 10px 0;
 }
 
-@media screen and (max-width: 768px){
-    .navbar a{
+@media screen and (max-width: 768px) {
+    .navbar a {
         font-size: small;
     }
 
-    .name-text h1{
+    .name-text h1 {
         font-size: 25px;
     }
 
-    .main img{
+    .main img {
         max-width: 200px;
     }
 
-    .main h1{
+    .main h1 {
         font-size: 25px;
     }
 
-    .main h2{
+    .main h2 {
         font-size: 15px;
     }
 
 
-    .info-section h3{
+    .info-section h3 {
         font-size: 20px;
     }
 
-    .info-section ul{
+    .info-section ul {
         font-size: 13px;
     }
 
-    .info-section p{
+    .info-section p {
         font-size: 13px;
     }
 
     .info-section .portfolio-item img {
-        width: 150px; /* Adjust the image size as needed */
+        width: 150px;
+        /* Adjust the image size as needed */
         margin-right: 5px;
     }
 
-    footer{
+    footer {
         font-size: 12px;
     }
 }
 
-
+p:first-child {
+    background-color: yellow;
+}
